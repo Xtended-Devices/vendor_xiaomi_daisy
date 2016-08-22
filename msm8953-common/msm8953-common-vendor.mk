@@ -789,6 +789,8 @@ PRODUCT_PACKAGES += \
     libgpustats \
     libsdm-disp-vndapis \
     libthermalclient \
+    libts_detected_face_hal \
+    libts_face_beautify_hal \
     libtime_genoff \
     libloc_api_v02 \
     WfdService \
