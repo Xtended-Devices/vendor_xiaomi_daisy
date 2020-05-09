@@ -812,7 +812,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv1_CM_adreno.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGLESv2_adreno.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_adreno.so \
-    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_esx.so
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_esx.so \
+		vendor/xiaomi/msm8953-common/proprietary/lib/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdolphin.so \
+		vendor/xiaomi/msm8953-common/proprietary/lib/libqti-at.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqti-at.so \
+		vendor/xiaomi/msm8953-common/proprietary/lib64/libdolphin.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdolphin.so \
+		vendor/xiaomi/msm8953-common/proprietary/lib64/libqti-at.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libqti-at.so
 
 PRODUCT_PACKAGES += \
     libbtconfigstore \
