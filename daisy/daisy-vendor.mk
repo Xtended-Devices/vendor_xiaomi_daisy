@@ -1926,6 +1926,25 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/etc/permissions/android.dolby.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.dolby.xml \
     vendor/xiaomi/daisy/proprietary/framework/dolby_ds.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_ds.jar
 
+# Waves
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/daisy/proprietary/etc/sysconfig/hiddenapi-whitelist-com.motorola.motowaves.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-whitelist-com.motorola.motowaves.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/com.motorola.motowaves.features.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motowaves.features.xml \
+    vendor/xiaomi/daisy/proprietary/etc/permissions/privapp-permissions-com.waves.maxxservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.waves.maxxservice.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/maxx_conf.ini:$(TARGET_COPY_OUT_VENDOR)/etc/maxx_conf.ini \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/maxx_default.mps:$(TARGET_COPY_OUT_VENDOR)/etc/maxx_default.mps \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libandroidaudioeffect_Oreo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libandroidaudioeffect_Oreo.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmaxxaudioeffectapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmaxxaudioeffectapi.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmaxxeffectwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmaxxeffectwrapper.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libAndroidAlgSys.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAndroidAlgSys.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libMAM2_3-AlgFX-Coretex_A9.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMAM2_3-AlgFX-Coretex_A9.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/soundfx/libmaxxeffect-cembedded.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libmaxxeffect-cembedded.so \
+    vendor/xiaomi/daisy/proprietary/max/lib/arm/libandroidaudioeffect_Oreo.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/WavesService/lib/arm/libandroidaudioeffect_Oreo.so \
+    vendor/xiaomi/daisy/proprietary/max/lib/arm/libc++_shared.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/WavesService/lib/arm/libc++_shared.so \
+    vendor/xiaomi/daisy/proprietary/max/lib/arm/libmaxxaudioeffectapi.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/WavesService/lib/arm/libmaxxaudioeffectapi.so \
+    vendor/xiaomi/daisy/proprietary/max/lib/arm/libmaxxeffectwrapper.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/WavesService/lib/arm/libmaxxeffectwrapper.so
+
 
 PRODUCT_PACKAGES += \
     FingerprintExtensionService
