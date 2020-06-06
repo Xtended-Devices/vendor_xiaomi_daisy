@@ -1880,7 +1880,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sigma_miracast@1.0.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sigma_miracast@1.0-halimpl.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sigma_miracast@1.0-impl.so \
-    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/vendor.qti.hardware.sigma_miracast@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sigma_miracast@1.0.so \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/ov12a10_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov12a10_chromatix.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/imx486_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx486_chromatix.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libactuator_dw9763_ofilm_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763_ov12a10.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libactuator_dw9763_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx486_4k_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_4k_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_4k_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_cpp_video_4k.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_default_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_default_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_60_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_90_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_hfr_120_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_video_4k.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_zsl_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_zsl_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov12a10.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libmmcamera_ov12a10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov12a10_eeprom.so
 
 
 PRODUCT_PACKAGES += \
