@@ -1924,7 +1924,14 @@ PRODUCT_COPY_FILES += \
 		vendor/xiaomi/daisy/proprietary/usr/keylayout/Vendor_045e_Product_0b12.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_045e_Product_0b12.kl \
 		vendor/xiaomi/daisy/proprietary/usr/keylayout/Vendor_054c_Product_0ce6.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_054c_Product_0ce6.kl \
 		vendor/xiaomi/daisy/proprietary/usr/keylayout/Vendor_0810_Product_0001.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_0810_Product_0001.kl \
-		vendor/xiaomi/daisy/proprietary/usr/keylayout/Vendor_1038_Porduct_1412.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_1038_Porduct_1412.kl
+		vendor/xiaomi/daisy/proprietary/usr/keylayout/Vendor_1038_Porduct_1412.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/Vendor_1038_Porduct_1412.kl \
+		vendor/xiaomi/daisy/proprietary/etc/permissions/com.sony.device.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sony.device.xml \
+		vendor/xiaomi/daisy/proprietary/etc/permissions/com.sonymobile.mediacontent.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonymobile.mediacontent.xml \
+		vendor/xiaomi/daisy/proprietary/etc/permissions/com.sonyericsson.system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.sonyericsson.system.xml \
+		vendor/xiaomi/daisy/proprietary/framework/com.sony.device.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sony.device.jar \
+		vendor/xiaomi/daisy/proprietary/framework/com.sonyericsson.system.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.system.jar \
+		vendor/xiaomi/daisy/proprietary/framework/com.sonyericsson.music.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonyericsson.music.jar \
+		vendor/xiaomi/daisy/proprietary/framework/com.sonymobile.mediacontent.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.sonymobile.mediacontent.jar
 
 PRODUCT_PACKAGES += \
     FingerprintExtensionService
