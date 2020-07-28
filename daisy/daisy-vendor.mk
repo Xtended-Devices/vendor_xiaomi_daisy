@@ -1921,14 +1921,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/etc/ds1-default.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/ds1-default.xml \
     vendor/xiaomi/daisy/proprietary/etc/permissions/android.dolby.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.dolby.xml \
     vendor/xiaomi/daisy/proprietary/framework/dolby_ds.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/dolby_ds.jar \
-    vendor/xiaomi/daisy/proprietary/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.thermal@1.0.so \
-    vendor/xiaomi/daisy/proprietary/lib/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/daisy/proprietary/lib/hw/thermal.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/thermal.msm8953.so \
-    vendor/xiaomi/daisy/proprietary/lib64/hw/android.hardware.thermal@1.0-impl.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/android.hardware.thermal@1.0-impl.so \
-    vendor/xiaomi/daisy/proprietary/lib64/hw/thermal.msm8953.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/hw/thermal.msm8953.so \
-    vendor/xiaomi/daisy/proprietary/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/android.hardware.thermal@1.0.so \
-    vendor/xiaomi/daisy/proprietary/vendor/bin/hw/android.hardware.thermal@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.thermal@1.0-service \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/init/android.hardware.thermal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.thermal@1.0-service.rc \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/xiaomi/daisy/proprietary/vendor/bin/mlipayd@1.1:$(TARGET_COPY_OUT_VENDOR)/bin/mlipayd@1.1 \
