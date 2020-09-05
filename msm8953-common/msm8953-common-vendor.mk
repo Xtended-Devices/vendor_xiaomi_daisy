@@ -833,5 +833,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
-    vendor.qti.ims.rcsconfig-V1.1-java
+    WfdCommon
