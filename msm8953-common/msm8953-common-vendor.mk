@@ -797,6 +797,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libbtconfigstore \
     libaudio_log_utils \
+    libaudioparsers \
     libqmiservices \
     libsdm-disp-vndapis \
     libthermalclient \
