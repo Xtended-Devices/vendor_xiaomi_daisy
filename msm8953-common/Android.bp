@@ -59,26 +59,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libgpustats",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libgpustats.so"],
-		},
-		android_arm64: {
-			srcs: ["proprietary/vendor/lib64/libgpustats.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
-        check_elf_files: false,
-}
-
-cc_prebuilt_library_shared {
 	name: "libqmiservices",
 	owner: "xiaomi",
 	strip: {
