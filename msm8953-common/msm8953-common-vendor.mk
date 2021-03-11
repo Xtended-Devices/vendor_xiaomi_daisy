@@ -122,11 +122,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/extractors/libmmparserextractor.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libadsprpc_system.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libavenhancements.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libdiag_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmdsprpc_system.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libmmparser_lite.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libqmi_cci_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libsdsprpc_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.1.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.perf@2.2.so \
@@ -151,6 +155,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imsvt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvt.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imsvtextutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtextutils.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/lib-imsvtutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imsvtutils.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libadsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libadsprpc_system.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libavenhancements.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libavenhancements.so \
@@ -162,10 +167,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimscamera_jni.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsmedia_jni.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libmdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdsprpc_system.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libmmosal.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmosal.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libmmparser_lite.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmmparser_lite.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libmwqemiptablemgr.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmwqemiptablemgr.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libqmi_cci_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libqmi_cci_system.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/libsdsprpc_system.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libsdsprpc_system.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.diaghal@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.diaghal@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
@@ -175,6 +182,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.data.iwlan@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.iwlan@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.data.qmi@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.data.qmi@1.0.so \
+    vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.dsp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.dsp@1.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.0.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.1.so \
     vendor/xiaomi/msm8953-common/proprietary/system_ext/lib64/vendor.qti.hardware.perf@2.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.perf@2.2.so \
@@ -457,6 +465,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_user_cal.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsmwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsmwrapper.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspl.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalfeature.so \
@@ -717,6 +726,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsensor_user_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_user_cal.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libspl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspl.so \
+    vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsysmon_cdsp_skel.so \
     vendor/xiaomi/msm8953-common/proprietary/vendor/lib64/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsystem_health_mon.so \
