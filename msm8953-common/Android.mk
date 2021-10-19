@@ -18,6 +18,6 @@ LOCAL_PATH := $(call my-dir)
 
 LOCAL_CHECK_ELF_FILES := false
 
-ifeq ($(TARGET_DEVICE),sakura)
+ifeq ($(TARGET_DEVICE),daisy)
 
 endif
