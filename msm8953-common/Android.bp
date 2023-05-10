@@ -302,3 +302,15 @@ cc_prebuilt_library_shared {
 	system_ext_specific: true,
 	check_elf_files: false,
 }
+
+android_app_import {
+	name: "ScreenshotTile",
+	owner: "pzqqt",
+	apk: "proprietary/system_ext/priv-app/ScreenshotTile/ScreenshotTile.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}

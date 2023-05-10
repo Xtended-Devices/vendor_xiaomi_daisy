@@ -846,6 +846,7 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     dpmserviceapp \
     ims \
+    ScreenshotTile \
     qcrilmsgtunnel \
     vendor.qti.gnss@4.1-service \
     vendor.qti.hardware.fm@1.0
